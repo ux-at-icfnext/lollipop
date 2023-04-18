@@ -10,17 +10,67 @@ in the form $setting: value,
     $theme-show-notifications: false,
     $theme-show-compile-warnings: false,
     $theme-image-path: "../img",
-    $theme-font-path: "../uswds/fonts"
-    // $theme-utility-breakpoints: (
-    //             'card': false,   // 160px
-    //             'card-lg': false,   // 240px
-    //             'mobile': false,   // 320px
-    //             'mobile-lg': true,    // 480px
-    //             'tablet': true,    // 640px
-    //             'tablet-lg': false,   // 880px
-    //             'desktop': true,    // 1024px
-    //             'desktop-lg': false,   // 1200px
-    //             'widescreen': false,   // 1400px
-    //     ),
+    $theme-font-path: "../uswds/fonts",
+    $theme-banner-max-width: "widescreen",
+    $theme-header-max-width: "widescreen",
+    $theme-grid-container-max-width: "desktop-lg",
+    $theme-footer-max-width: "widescreen",
+    $theme-identifier-max-width: "widescreen",
+    $theme-utility-breakpoints: (
+                'card': false,   // 160px
+                'card-lg': false,   // 240px
+                'mobile': false,   // 320px
+                'mobile-lg': true,    // 480px
+                'tablet': true,    // 640px
+                'tablet-lg': true,   // 880px
+                'desktop': true,    // 1024px
+                'desktop-lg': true,   // 1200px
+                'widescreen': true,   // 1400px
+        ),
+    // font styles
+    $theme-typeface-tokens: (
+        "lora": (
+            'display-name': "Lora", 
+            'cap-height': 364px,
+            'stack': "Lora, serif",
+        ),
+        "montserrat": (
+            'display-name': "Montserrat", 
+            'cap-height': 364px,
+            'stack': "Montserrat, sans-serif",
+        ),
+    ),
+    
+    $theme-font-type-sans: "lora",
+    $theme-font-type-serif: "montserrat",
+    $theme-font-role-heading: "serif",
+
+    // colors
+    $theme-color-primary-darker: #000a17,
+    $theme-color-primary-dark: #002552,
+    $theme-color-primary: #005DAA, 
+    $theme-color-primary-light: #00AFD8,
+    $theme-color-error: #E21E1E,
+    $theme-color-secondary-darker: #770833 ,
+    $theme-color-secondary-dark: #ae0b4b,
+    $theme-color-secondary: #E50E63,
+    $theme-color-accent-warm: #F37322,
+    $theme-color-warning: #FFF453,
+    $theme-color-success: #40B66F,
+    $theme-color-accent-cool: #7E81BE,
+    $theme-color-base-darkest: #2D2E2F,
+    $theme-color-base-ink: #2D2E2F,
+    $theme-color-base: #71767A,
+    $theme-color-base-light:#EDEFF0,
+    $theme-color-base-lighter: #F7F9FA,
+    $theme-color-base-lightest: #FBFCFD,
+    $theme-color-disabled-dark: #6d6E71,
+    $theme-color-disabled: #D1D3D4,
+    
+    // link styles
+
+    // card styles
+    $theme-card-border-width: 0,
+    $theme-card-border-radius: 0,
 
 );
