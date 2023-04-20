@@ -23,3 +23,6 @@
 # accent: "#e5a000"
 # link: "#005ea2"
 # grays: "#000000"
+
+- name: primary-lightest
+  value: "#C7CFE9"

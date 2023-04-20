@@ -1,0 +1,16 @@
+
+.usa-accordion{
+  .usa-accordion__button{
+      background-color: #eef1f9;
+  }
+  .usa-accordion__button:hover{
+      background-color: #C7CFE9;
+  }
+  .usa-accordion__button[aria-expanded="true"]{
+    background-color: #C7CFE9;
+    background-image: url(/assets/img/usa-icons/add_circle.svg),linear-gradient(transparent,transparent)
+  }
+  .usa-accordion__button[aria-expanded=false]{
+      background-image: url(../icons/add-bold.svg),linear-gradient(transparent,transparent);
+  }
+}
